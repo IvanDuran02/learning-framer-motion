@@ -21,9 +21,8 @@ function App() {
   };
 
   // useEffect(() => {});
-
   return (
-    <div>
+    <div className="flex justify-center items-center">
       <motion.button
         className="save-button"
         whileHover={{ scale: 1.1 }}
